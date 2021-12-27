@@ -14,6 +14,6 @@ public class TestUSEProcessor {
         File key = new File("src/main/java/Test/testKey.txt");
         File answer = new File("src/main/java/Test/testAnswer.txt");
         int result = context.getBean(ResultsProcessor.class).getResultsForExam(key, answer);
-        Assertions.assertEquals(result, 9);
+        Assertions.assertEquals(12, result);
     }
 }

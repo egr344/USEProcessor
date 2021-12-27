@@ -22,7 +22,7 @@ public class ResultsProcessorImpl implements ResultsProcessor {
             if (keyMap.get(numberAnswer).equals(answerMap.get(numberAnswer))) {
                 if (numberAnswer <= 4)
                     results += scores.get(0);
-                else if (numberAnswer <= 9)
+                else if (numberAnswer <= 8)
                     results += scores.get(1);
                 else if (numberAnswer <= 10)
                     results += scores.get(2);
